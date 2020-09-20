@@ -18,6 +18,17 @@
 
 /* ======== INDEX.HTML ======== */
 
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: var(--mine-font);
   font-style: normal;
@@ -33,7 +44,32 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 /* ======== HEADER ======== */
+
+.header {
+  padding: 32px 0;
+}
+
+.header .container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+}
+
 /* HEADER-Logo */
 .logo {
   font-family: var(--secondary-font);
@@ -42,6 +78,7 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: black;
+  margin-right: 92px;
 }
 
 .logo-chapter {
@@ -50,9 +87,25 @@ body {
 
 /* HEADER-Navigation */
 
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 /* HEADER-Adress */
 .adress {
   font-style: normal;
+}
+
+.header .adress {
+  margin-left: auto;
+}
+
+.adress-list {
+  display: flex;
+}
+
+.adress-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 .adress-list-link {
   font-weight: 500;
