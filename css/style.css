@@ -138,9 +138,6 @@ body {
 .hero {
   background-color: var(--secondary-background);
   height: 600px;
-}
-
-.hero .container {
   padding-top: 200px;
 }
 
@@ -183,6 +180,23 @@ body {
 /* ======== END HERO ======== */
 
 /* ======== FEATURES ======== */
+
+.features {
+  padding-top: 94px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list-item:not(last-child) {
+  margin-right: 30px;
+}
+
+.features .sub-title {
+  margin-bottom: 10px;
+}
+
 .sub-title {
   font-weight: 700;
   font-size: 14px;
@@ -201,6 +215,20 @@ body {
 /* ======== END FEATURES ======== */
 
 /* ======== ABOUT-US ======== */
+
+.about-us {
+  padding-top: 94px;
+}
+
+.about-us-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us .title {
+  margin-bottom: 50px;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
