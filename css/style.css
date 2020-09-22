@@ -218,6 +218,7 @@ body {
 
 .about-us {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us-list {
@@ -240,6 +241,33 @@ body {
 /* ======== END ABOUT-US ======== */
 
 /* ======== TEAM ======== */
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-content {
+  padding: 30px 58px;
+}
+
+.team .title {
+  margin-bottom: 50px;
+}
+
 .team-sub-title {
   font-weight: 500;
   font-size: 16px;
@@ -247,6 +275,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
 .team-description {
