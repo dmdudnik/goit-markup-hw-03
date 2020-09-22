@@ -137,8 +137,11 @@ body {
 /* ======== HERO ======== */
 .hero {
   background-color: var(--secondary-background);
-  height: 600px;
+}
+
+.hero .container {
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* HERO-Title */
@@ -189,7 +192,7 @@ body {
   display: flex;
 }
 
-.features-list-item:not(last-child) {
+.features-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -292,6 +295,15 @@ body {
   background-color: var(--secondary-background);
 }
 
+.contact .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
 .contact-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -303,6 +315,10 @@ body {
 
 .contact-logo-chapter {
   color: var(--accent-color);
+}
+
+.contact-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contact-list-maplink {
