@@ -405,12 +405,14 @@ body {
 .portfolio-item-content {
   padding: 20px 24px;
 }
+
 .portfolio-subtitle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
 
 .portfolio-description {
