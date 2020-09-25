@@ -342,7 +342,7 @@ body {
 /* ======== PORTFOLIO.HTML ======== */
 /* ======== FILTER ======== */
 
-.portfolio-selector {
+.portfolio-selector .container {
   padding-top: 94px;
   padding-bottom: 34px;
 }
