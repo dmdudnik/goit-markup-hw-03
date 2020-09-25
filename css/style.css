@@ -56,6 +56,9 @@ body {
 
 .header {
   padding: 32px 0;
+  border: 1px;
+  border-style: solid;
+  border-color: #ececec;
 }
 
 .header .container {
@@ -122,6 +125,10 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+
+.navigation-list-link.current {
+  color: var(--accent-color);
 }
 
 .adress-list-link:hover,
